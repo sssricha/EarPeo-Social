@@ -19,20 +19,6 @@ body {
 	<img src="https://ik.imagekit.io/privatecloud/in_Viw5koMea.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1642179933624" alt="EarPeo Website Logo">
 	<p style="color:white" align="center">EarPeo Social is a social media like instagram. Easy Account Setup to secure posts. No transactions. Made by Sricharan Sivakumar.</p>
 	<br>
-	var GoogleAuth; // Google Auth object.
-function initClient() {
-  gapi.client.init({
-      'apiKey': 'AIzaSyDNlKvjSW66cDVs4POXXVlGhskjig__GyY',
-      'clientId': '889301104658-cpf6qd3p2mc6o1jjmdj2ec9kapdcahs9.apps.googleusercontent.com',
-      'scope': 'https://www.googleapis.com/auth/drive.metadata.readonly',
-      'discoveryDocs': ['https://www.googleapis.com/discovery/v1/apis/drive/v3/rest']
-  }).then(function () {
-      GoogleAuth = gapi.auth2.getAuthInstance();
-
-      // Listen for sign-in state changes.
-      GoogleAuth.isSignedIn.listen(updateSigninStatus);
-  });
-}
 	<br>
 	<form name="contact" netlify>
   <p>
